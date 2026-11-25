@@ -730,7 +730,7 @@ config.libs = [
         "src_dir": "lib",
         "objects": [
             Object(Matching, "egg/core/eggAllocator.cpp"),
-            Object(NonMatching, "egg/core/eggArchive.cpp"),
+            Object(Matching, "egg/core/eggArchive.cpp"),
             Object(NonMatching, "egg/core/eggAsyncDisplay.cpp"),
             Object(NonMatching, "egg/audio/eggAudioArcPlayerMgr.cpp"),
             Object(Matching, "egg/util/eggCntFile.cpp"),
