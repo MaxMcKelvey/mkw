@@ -734,7 +734,7 @@ config.libs = [
             Object(NonMatching, "egg/core/eggAsyncDisplay.cpp"),
             Object(NonMatching, "egg/audio/eggAudioArcPlayerMgr.cpp"),
             Object(Matching, "egg/util/eggCntFile.cpp"),
-            Object(NonMatching, "egg/core/eggCompress.cpp"),
+            Object(Matching, "egg/core/eggCompress.cpp"),
             Object(NonMatching, "egg/core/eggDecomp.cpp"),
             Object(NonMatching, "egg/core/eggDisplay.cpp"),
             Object(NonMatching, "egg/core/eggDisposer.cpp"),
