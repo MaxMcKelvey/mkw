@@ -469,7 +469,7 @@ config.libs = [
         "progress_category": "sdk",
         "src_dir": "lib",
         "objects": [
-            Object(NonMatching, "rvl/mem/rvlMemHeap.cpp"),
+            Object(Matching, "rvl/mem/rvlMemHeap.cpp"),
             Object(Matching, "rvl/mem/rvlMemExpHeap.c"),
             Object(Matching, "rvl/mem/rvlMemFrmHeap.cpp"),
             Object(Matching, "rvl/mem/rvlMemUnitHeap.cpp"),

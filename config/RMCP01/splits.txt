@@ -741,7 +741,7 @@ unconfigured/rvlKpad.o:
 
 rvl/mem/rvlMemHeap.cpp:
 	.text       start:0x801981EC end:0x80198798
-	.bss        start:0x80346CF0 end:0x80346D20
+	.bss        start:0x80346CF0 end:0x80346D18
 	.sbss       start:0x80386838 end:0x80386840
 
 rvl/mem/rvlMemExpHeap.c:
