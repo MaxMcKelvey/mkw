@@ -702,7 +702,7 @@ config.libs = [
             Object(Matching, "nw4r/ut/ut_dvdFileStream.cpp"),
             Object(Matching, "nw4r/ut/ut_dvdLockedFileStream.cpp"),
             Object(NonMatching, "nw4r/ut/ut_nandFileStream.cpp"),
-            Object(NonMatching, "nw4r/ut/ut_lockedCache.cpp"),
+            Object(Matching, "nw4r/ut/ut_lockedCache.cpp"),
             Object(Matching, "nw4r/ut/ut_font.cpp"),
             Object(Matching, "nw4r/ut/ut_romFont.cpp"),
             Object(Matching, "nw4r/ut/ut_resFontBase.cpp"),

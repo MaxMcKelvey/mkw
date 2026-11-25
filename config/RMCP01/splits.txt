@@ -141,7 +141,7 @@ nw4r/ut/ut_nandFileStream.cpp:
 
 nw4r/ut/ut_lockedCache.cpp:
 	.text       start:0x800B1790 end:0x800B1968
-	.ctors      start:0x80244E40 end:0x80244E48
+	.ctors      start:0x80244E40 end:0x80244E44
 	.bss        start:0x802F1300 end:0x802F1320
 
 nw4r/ut/ut_font.cpp:
