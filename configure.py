@@ -511,7 +511,7 @@ config.libs = [
         "src_dir": "lib",
         "objects": [
         Object(Matching, "rvl/pad/rvlPadClamp.c"),
-        Object(NonMatching, "rvl/pad/rvlPad.c", extra_cflags=["-inline on,noauto"]),
+        Object(Matching, "rvl/pad/rvlPad.c", extra_cflags=["-inline on,noauto"]),
         ],
     },
     {
