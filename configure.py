@@ -758,7 +758,7 @@ config.libs = [
             Object(NonMatching, "egg/core/eggTextureBuffer.cpp"),
             Object(Matching, "egg/core/eggThread.cpp"),
             Object(Matching, "egg/core/eggUnitHeap.cpp"),
-            Object(NonMatching, "egg/math/eggVector.cpp"),
+            Object(Matching, "egg/math/eggVector.cpp"),
             Object(Matching, "egg/core/eggVideo.cpp"),
             Object(Matching, "egg/core/eggViewport.cpp"),
             Object(Matching, "egg/core/eggXfb.cpp"),

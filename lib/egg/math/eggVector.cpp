@@ -5,6 +5,7 @@
 
 #pragma once
 
+#define VEC2_DTOR_OUTLINE
 #include <egg/math/eggVector.hpp>
 #include <float.h>
 
