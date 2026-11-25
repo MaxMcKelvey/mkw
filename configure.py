@@ -662,7 +662,7 @@ config.libs = [
         "src_dir": "lib",
         "objects": [
             Object(NonMatching, "nw4r/g3d/g3d_camera.cpp"),
-            Object(NonMatching, "nw4r/g3d/g3d_fog.cpp"),
+            Object(Matching, "nw4r/g3d/g3d_fog.cpp"),
         ],
     },
     {
