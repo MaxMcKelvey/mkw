@@ -651,7 +651,7 @@ config.libs = [
         "src_dir": "lib",
         "objects": [
             Object(Matching, "nw4r/math/mathTriangular.cpp"),
-            Object(NonMatching, "nw4r/math/mathTypes.cpp"),
+            Object(Matching, "nw4r/math/mathTypes.cpp"),
         ],
     },
     {

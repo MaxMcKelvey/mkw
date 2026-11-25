@@ -3,14 +3,14 @@
 #include "mathConstants.hpp"
 
 extern "C" {
-extern const f32 unk_80387ea8;
-extern const f32 unk_80387eac;
-extern const f32 unk_80387eb0;
+extern const f32 lbl_80387EA8;
+extern const f32 lbl_80387EAC;
+extern const f32 lbl_80387EB0;
 
 /*
-const f32 unk_80387ea8 = 0.0f;
-const f32 unk_80387eac = 1.0f;
-const f32 unk_80387eb0 = ((2 * 3.141592653589793f) / 256.f);
+const f32 lbl_80387EA8 = 0.0f;
+const f32 lbl_80387EAC = 1.0f;
+const f32 lbl_80387EB0 = ((2 * 3.141592653589793f) / 256.f);
 */
 }
 
@@ -18,8 +18,8 @@ namespace nw4r {
 namespace math {
 
 MTX33* MTX33Identity(register MTX33* out) {
-  register f32 n00 = unk_80387ea8;
-  register f32 n11 = unk_80387eac;
+  register f32 n00 = lbl_80387EA8;
+  register f32 n11 = lbl_80387EAC;
   register f32 n10;
   asm
   {
@@ -111,7 +111,7 @@ loc0:
 // clang-format on
 
 MTX34* MTX34Zero(register MTX34* out) {
-  register f32 zero = unk_80387ea8;
+  register f32 zero = lbl_80387EA8;
   asm
   {
     psq_st zero, 0(out), 0, 0;
@@ -273,7 +273,7 @@ MTX34* MTX34MAdd(register MTX34* out, register f32 t, const register MTX34* m1,
 }
 
 MTX34* MTX34RotAxisFIdx(MTX34* out, const VEC3* axis, f32 amnt) {
-  PSMTXRotAxisRad(*out, *axis, unk_80387eb0 * amnt);
+  PSMTXRotAxisRad(*out, *axis, lbl_80387EB0 * amnt);
   return out;
 }
 
