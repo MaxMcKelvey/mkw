@@ -542,7 +542,7 @@ config.libs = [
         "src_dir": "lib",
         "objects": [
         Object(Matching, "rvl/so/soCommon.c"),
-        Object(NonMatching, "rvl/so/soBasic.c"),
+        Object(Matching, "rvl/so/soBasic.c"),
         ],
     },
     {

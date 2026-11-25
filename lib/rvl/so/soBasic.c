@@ -5,6 +5,8 @@
 const char* __SOCKET_VERSION = "<< RVL_SDK - SOCKET \trelease build: Dec 10 "
                                "2007 10:02:35 (0x4199_60831) >>";
 
+char lbl_802A2544[] = "%d.%d.%d.%d";
+
 // static int SO_Initialized = 0;
 
 int SOSocket2(int pf, int type, int protocol) {
