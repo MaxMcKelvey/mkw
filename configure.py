@@ -521,7 +521,7 @@ config.libs = [
         "progress_category": "sdk",
         "src_dir": "lib",
         "objects": [
-        Object(NonMatching, "rvl/si/siBios.c"),
+        Object(Matching, "rvl/si/siBios.c"),
         ],
     },
     {
