@@ -718,7 +718,7 @@ config.libs = [
         "src_dir": "lib",
         "objects": [
             Object(NonMatching, "rfl/rfl_init.c"),
-            Object(NonMatching, "rfl/rfl_icon.c"),
+            Object(Matching, "rfl/rfl_icon.c", extra_cflags=["-Cpp_exceptions on"]),
         ],
     },
     # See https://github.com/vabold/EGG/
