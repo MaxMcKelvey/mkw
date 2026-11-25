@@ -753,7 +753,7 @@ config.libs = [
             Object(NonMatching, "egg/core/eggSceneManager.cpp"),
             Object(NonMatching, "egg/util/eggStream.cpp"),
             Object(Matching, "egg/core/eggStreamDecomp.cpp"),
-            Object(NonMatching, "egg/core/eggSystem.cpp"),
+            Object(Matching, "egg/core/eggSystem.cpp"),
             Object(Matching, "egg/core/eggTaskThread.cpp"),
             Object(NonMatching, "egg/core/eggTextureBuffer.cpp"),
             Object(Matching, "egg/core/eggThread.cpp"),
