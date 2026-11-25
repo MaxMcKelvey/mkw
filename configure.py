@@ -750,7 +750,7 @@ config.libs = [
             Object(NonMatching, "egg/math/eggQuat.cpp"),
             Object(NonMatching, "egg/util/eggSaveBanner.cpp"),
             Object(Matching, "egg/core/eggScene.cpp"),
-            Object(NonMatching, "egg/core/eggSceneManager.cpp"),
+            Object(Matching, "egg/core/eggSceneManager.cpp"),
             Object(NonMatching, "egg/util/eggStream.cpp"),
             Object(Matching, "egg/core/eggStreamDecomp.cpp"),
             Object(Matching, "egg/core/eggSystem.cpp"),
